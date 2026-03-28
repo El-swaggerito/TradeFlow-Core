@@ -18,7 +18,7 @@ export default function HomePage() {
   useEffect(() => {
     // Register service worker and initialize PWA features
     if (isReady) {
-      console.log('PWA is ready');
+      console.log('PWA is ready'); 
     }
   }, [isReady]);
 
